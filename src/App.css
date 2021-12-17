@@ -88,6 +88,7 @@ body {
     padding: 15px;
     margin-bottom: 5px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .nonveg {
@@ -95,12 +96,14 @@ body {
     padding: 15px;
     margin-bottom: 5px;
     border-radius: 20px;
+    cursor: pointer;
 }
 .desserts {
     background-color: #96f4f7;
     padding: 15px;
     margin-bottom: 5px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .item-veg {
@@ -128,4 +131,14 @@ body {
 
 .item-dessert:hover {
     background-color: rgb(250, 230, 50);
+}
+
+.empty {
+    font-family: Cabin Sketch;
+    color: #5995DA;
+}
+
+.quick {
+    font-family: Cabin Sketch;
+    color: #fa8072;
 }

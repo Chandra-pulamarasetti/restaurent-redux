@@ -22,6 +22,7 @@ class Billing extends Component {
         return (
             <div>
                 <table className='table'>
+
                     <thead>
                         <tr>
                             <th>Sl.No</th>
@@ -30,6 +31,7 @@ class Billing extends Component {
                             <th>Price</th>
                         </tr>
                     </thead>
+
                     <tbody>
                         { this.props.cartItems && this.props.cartItems.map((item, id) => 
                             <tr key={ item.category } style={{ backgroundColor : item.category.indexOf('V')=== 0 && '#addfad' || item.category.indexOf('NV')=== 0 && '#ffcccb' || item.category.indexOf('D')=== 0 && '#f7f663' }}>
