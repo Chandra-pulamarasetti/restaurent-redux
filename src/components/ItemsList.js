@@ -9,6 +9,7 @@ class ItemsList extends Component {
         this.props.addToCart(item)
     }
 
+    
     render() {
         return (
             <div className='item-container'>
