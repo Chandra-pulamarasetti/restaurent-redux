@@ -1,38 +1,131 @@
-.App {
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.nav-container {
+    color: white;
+    background-color: #5995DA;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo {
+    font-size: 1.2rem;
+}
+
+.signup {
+    font-size: 1.2rem;
+}
+
+.login {
+    margin-left: 20px;
+    font-size: 1.2rem;
+}
+
+.menu-container {
+    color:#5995DA;
+    background-color: #D6E9FE;
+    display: flex;
+}
+
+.menu-item{
+    height: 50px;
+    flex: 1;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 1.2rem;
+}
+
+.layout-container {
+    color:#5995DA;
+    display: flex;
+    margin: 8px;
+}
+
+.layout-item{
+    height: 50px;
+    flex: 1;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 1.2rem;
+}
+
+.menu {
+    flex: 0.5;
+}
+
+.table {
+    width: 100%;
+    background-color: #559999;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.table > tbody {
   text-align: center;
+  color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.veg {
+    background-color: #96f4f7;
+    padding: 15px;
+    margin-bottom: 5px;
+    border-radius: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nonveg {
+    background-color: #96f4f7;
+    padding: 15px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+.desserts {
+    background-color: #96f4f7;
+    padding: 15px;
+    margin-bottom: 5px;
+    border-radius: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.item-veg {
+    background-color: #90ee90;
+    border-radius: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.item-veg:hover {
+    background-color: green;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.item-nonveg {
+    background-color: #fa8072;
+    border-radius: 15px;
+}
+
+.item-nonveg:hover {
+    background-color: rgb(223, 60, 60);
+}
+
+.item-dessert {
+    background-color: rgb(250, 230, 50);
+    border-radius: 15px;
+}
+
+.item-dessert:hover {
+    background-color: rgb(250, 230, 50);
 }

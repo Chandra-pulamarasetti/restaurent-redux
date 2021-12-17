@@ -1,0 +1,102 @@
+[
+    {
+        "category" : "V001",
+        "name" : "Panner Tikka",
+        "price" : 80
+    },
+    {
+        "category" : "V002",
+        "name" : "Dal Makhani",
+        "price" : 60
+    },
+    {
+        "category" : "V003",
+        "name" : "Jeera Rice",
+        "price" : 50
+    },
+    {
+        "category" : "V004",
+        "name" : "Gobi Manchurian",
+        "price" : 100
+    },
+    {
+        "category" : "V005",
+        "name" : "Veg Biryani",
+        "price" : 120
+    },
+    {
+        "category" : "V006",
+        "name" : "Chaat",
+        "price" : 40
+    },
+    {
+        "category" : "NV001",
+        "name" : "Mutton Soup",
+        "price" : 150
+    },
+    {
+        "category" : "NV002",
+        "name" : "Chicken Tikka",
+        "price" : 100
+    },
+    {
+        "category" : "NV003",
+        "name" : "Chicken Tandoori",
+        "price" : 240
+    },
+    {
+        "category" : "NV004",
+        "name" : "Mughalai Biryani",
+        "price" : 180
+    },
+    {
+        "category" : "NV005",
+        "name" : "Butter Chicken",
+        "price" : 120
+    },
+    {
+        "category" : "NV006",
+        "name" : "Dum Biryani",
+        "price" : 180
+    },
+    {
+        "category" : "NV007",
+        "name" : "Prawn Rice",
+        "price" : 120
+    },
+    {
+        "category" : "NV008",
+        "name" : "Chicken Soup",
+        "price" : 60
+    },
+    {
+        "category" : "D001",
+        "name" : "Vanilla IceCream",
+        "price" : 50
+    },
+    {
+        "category" : "D002",
+        "name" : "Royal Falooda",
+        "price" : 100
+    },
+    {
+        "category" : "D003",
+        "name" : "Gajar ka Meetha",
+        "price" : 120
+    },
+    {
+        "category" : "D004",
+        "name" : "Rajbog IceCream",
+        "price" : 70
+    },
+    {
+        "category" : "D005",
+        "name" : "Black Forest IceCream",
+        "price" : 50
+    },
+    {
+        "category" : "D006",
+        "name" : "Cone IceCream",
+        "price" : 40
+    }
+]
